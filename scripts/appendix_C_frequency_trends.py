@@ -1,4 +1,5 @@
 """
+Plotting:
 Plots three measures over time for metaphor categories:
   1) Raw term counts
   2) Frequency per million corpus words

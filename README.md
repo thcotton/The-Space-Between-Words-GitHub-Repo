@@ -3,15 +3,21 @@
 The following appendices are **implemented in this repository and omitted from the paper for brevity**:
 
 
-\- Appendix C – Frequency analysis: `scripts/appendix\_C\_frequency\_trends.py`
+\- Frequency analysis: `scripts/appendix\_C\_frequency\_trends.py`
 
-\- Appendix D – Correlation heatmap: `scripts/appendix\_D\_heatmap.py`
+\- Correlation heatmap: `scripts/appendix\_D\_heatmap.py`
 
-\- Appendix E – Pairwise embedding comparisons: `scripts/appendix\_E\_pairwise\_comparisons.py`
+\-  Pairwise embedding comparisons: `scripts/appendix\_E\_pairwise\_comparisons.py`
 
-\- Appendix F – Normalized frequency \& relative value: `scripts/appendix\_F\_normalized\_frequency.py`
+\- Normalized frequency \& relative value: `scripts/appendix\_F\_normalized\_frequency.py`
 
-\- Appendix H – Robustness checks: `scripts/appendix\_H\_robustness\_checks.py`
+\- Bootstrap Analysis: `scripts/appendix\_G\_bootstrap\_analysis.py`
+
+\- Control Analysis: `scripts/appendix\_H\_control\_analysis.py`
+
+## Notes
+Apologies for the mess! I've included this repo to try to keep the process transparent. The code was originally included as pseudocode within the paper, and so it has retained the appendix labels from that previous version. It is not very pretty, but the time has passed for it to be so. Regardless, this should get someone where they need to replicate what I do in the paper.
+
 
 ## Training parameters
 
