@@ -1,28 +1,28 @@
-HEAD
 \# The Space Between Words – Code Repository
 
+The following appendices are **implemented in this repository and omitted from the paper for brevity**:
 
 
-This repository contains the code used to generate analyses and figures reported in the paper.
+\- Appendix C – Frequency analysis: `scripts/appendix\_C\_frequency\_trends.py`
 
+\- Appendix D – Correlation heatmap: `scripts/appendix\_D\_heatmap.py`
 
+\- Appendix E – Pairwise embedding comparisons: `scripts/appendix\_E\_pairwise\_comparisons.py`
 
-\- Appendix A – Document counts by bin → `scripts/appendix\_A\_doc\_counts.py`
+\- Appendix F – Normalized frequency \& relative value: `scripts/appendix\_F\_normalized\_frequency.py`
 
-\- Appendix B – Training hyperparameters → `scripts/appendix\_B\_train\_models.py`
+\- Appendix H – Robustness checks: `scripts/appendix\_H\_robustness\_checks.py`
 
-\- Appendix C – Frequency analysis → `scripts/appendix\_C\_frequency\_trends.py`
+## Training parameters
 
-\- Appendix D – Correlation heatmap → `scripts/appendix\_D\_heatmap.py`
+All Word2Vec models were trained using a consistent set of hyperparameters:
 
-\- Appendix E – Pairwise embedding comparisons → `scripts/appendix\_E\_pairwise\_comparisons.py`
+```text
+vector_size: 100        # dimensionality of word vectors
+window: 10              # context window size
+min_count: 2            # minimum frequency for inclusion
+workers: half CPU cores # parallel worker threads (minimum 1)
+epochs: 15              # training iterations
+sg: 1                   # skip-gram architecture
 
-\- Appendix F – Normalized frequency \& relative value → `scripts/appendix\_F\_normalized\_frequency.py`
-
-\- Appendix G – Bootstrap resampling → `scripts/appendix\_G\_bootstrap\_analysis.py`
-
-\- Appendix H – Robustness checks → `scripts/appendix\_H\_robustness\_checks.py`
-
-
-=======
 # The-Space-Between-Words-GitHub-Repo
