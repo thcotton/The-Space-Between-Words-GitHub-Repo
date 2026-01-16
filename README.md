@@ -16,7 +16,9 @@ The following appendices are **implemented in this repository and omitted from t
 \- Control Analysis: `scripts/appendix\_H\_control\_analysis.py`
 
 ## Notes
-Apologies for the mess! I've included this repo to try to keep the process transparent. The code was originally included as pseudocode within the paper, and so it has retained the appendix labels from that previous version. It is not very pretty, but the time has passed for it to be so. Regardless, this should get someone where they need to replicate what I do in the paper.
+Apologies for the mess! I've included this repo for transparency. The scripts correspond to what was originally pseudocode within the appendices of an early draft of the paper, and so it has retained the appendix labels from that previous version. 
+
+It is not very **pretty**, but the time has passed for it to be so. It merely reflects the research workflow used to generate the reported results. It is not intended as a polished software package. Regardless, this should get someone where they need to eproduce the analyses described in the paper, should they want to.
 
 
 ## Training parameters
